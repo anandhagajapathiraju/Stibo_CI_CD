@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <ListOfValuesGroupList>
+        <ListOfValuesGroup ID="McDonaldsDemoLOVGrp" ParentID="List Of Values group root">
+            <Name QualifierID="Qualifier root">McDonaldsDemoLOVGrp</Name>
+        </ListOfValuesGroup>
+    </ListOfValuesGroupList>
+</STEP-ProductInformation>

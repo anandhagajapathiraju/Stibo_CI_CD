@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <SetupGroups>
+        <SetupGroup ID="PMDM.InboundIntegrationEndpoints" UserTypeID="Inbound Integration Endpoints" ParentID="Setup Group hierarchy root">
+            <Name QualifierID="Qualifier root">PMDM Inbound Integration Endpoints</Name>
+        </SetupGroup>
+    </SetupGroups>
+</STEP-ProductInformation>

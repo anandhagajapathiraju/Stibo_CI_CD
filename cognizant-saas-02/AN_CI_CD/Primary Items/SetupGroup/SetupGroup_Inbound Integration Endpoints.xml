@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <SetupGroups>
+        <SetupGroup ID="Inbound Integration Endpoints" UserTypeID="Inbound Integration Endpoints" ParentID="Setup Group hierarchy root">
+            <Name QualifierID="Qualifier root">Inbound Integration Endpoints</Name>
+        </SetupGroup>
+    </SetupGroups>
+</STEP-ProductInformation>

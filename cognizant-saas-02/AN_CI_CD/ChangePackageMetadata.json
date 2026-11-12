@@ -1,0 +1,2138 @@
+{
+  "version" : "2.1",
+  "id" : "AN_CI_CD",
+  "name" : "AN_CI_CD",
+  "metadata" : { },
+  "setupGroupId" : "ChangePackagesRoot",
+  "uniqueId" : "cpk-72da461e-3faa-4a9d-8c5a-27e0c08588a6",
+  "origin" : "cognizant-saas-02",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "2392951_WebUILearningGroup",
+    "itemURL" : "step://SetupGroup?id=2392951_WebUILearningGroup",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2492667 Worflow Group",
+    "itemURL" : "step://SetupGroup?id=2492667_WorflowGroup",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Business Rule Group",
+    "itemURL" : "step://objecttype?id=BusinessRuleGroup",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2107533 2025 Business Rules",
+    "itemURL" : "step://SetupGroup?id=2107533_2025_business_rules",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Business Action Type",
+    "itemURL" : "step://objecttype?id=stibo.businessrule.action",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WebUI Setup Group Category",
+    "itemURL" : "step://objecttype?id=WebUISetupGroupCategory",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "262748_Business Rules",
+    "itemURL" : "step://SetupGroup?id=262748_Business+Rules",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2191396 MS Business Condition",
+    "itemURL" : "step://SetupGroup?id=2191396_MS_Business_Condition",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Ecommerce Outbound",
+    "itemURL" : "step://SetupGroup?id=PMDM.EcommerceOutbound",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "GMM Conditions",
+    "itemURL" : "step://SetupGroup?id=GMM_Conditions",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Inbound Setup Group Category",
+    "itemURL" : "step://objecttype?id=InboundSetupGroupCategory",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Wendys WF",
+    "itemURL" : "step://SetupGroup?id=Wendys_WF",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "001M_ElectroMart",
+    "itemURL" : "step://SetupGroup?id=001M_ElectroMart",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2138_BR_Group",
+    "itemURL" : "step://SetupGroup?id=BR_Group_401",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Backup Outbound",
+    "itemURL" : "step://SetupGroup?id=BackupO",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Status Flags",
+    "itemURL" : "step://SetupGroup?id=StatusFlags",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PDX Inbound Integration Setup Group Type",
+    "itemURL" : "step://objecttype?id=PDS+Inbound+Integration+Setup+Group+Type",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PMDM Outbound Integration Endpoints",
+    "itemURL" : "step://SetupGroup?id=PMDM.OutboundIntegrationEndpoints",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Gateway Endpoints",
+    "itemURL" : "step://objecttype?id=Gateway+Endpoints",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Contact Details",
+    "itemURL" : "step://attributegroup?id=MCDContactDetails",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SU4OIEPS",
+    "itemURL" : "step://SetupGroup?id=SU4OIEPS",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "List Of Values Group Type",
+    "itemURL" : "step://objecttype?id=List+Of+Values+group+type",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "741933_Workflow",
+    "itemURL" : "step://SetupGroup?id=741933_WRKFLW",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "KVK Outbounds",
+    "itemURL" : "step://SetupGroup?id=KVKOutbounds",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PMDM Gateway Endpoints",
+    "itemURL" : "step://SetupGroup?id=PMDM.GatewayEndpoints",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "001Y_Product_WF",
+    "itemURL" : "step://SetupGroup?id=001Y_Product_WF",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2133010_ahold_business_group",
+    "itemURL" : "step://SetupGroup?id=2133010_ahold_business_group",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Mobiles_OIEP_Grp",
+    "itemURL" : "step://SetupGroup?id=Mobiles_OIEP_Grp",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "KVK Business Rule Group",
+    "itemURL" : "step://SetupGroup?id=KVKBusinessRuleGroup",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2168218-BR",
+    "itemURL" : "step://SetupGroup?id=2168218-BR",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Workflows",
+    "itemURL" : "step://SetupGroup?id=Workflows",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ZaprosBR",
+    "itemURL" : "step://SetupGroup?id=ZaprosBR",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Match Codes and Matching Algorithms",
+    "itemURL" : "step://objecttype?id=MatchCodesAndMatchingAlgorithms",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "WEB UI Group",
+    "itemURL" : "step://SetupGroup?id=Web_UI_Group",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Ak_Mobiles_Inbound",
+    "itemURL" : "step://SetupGroup?id=Ak_Mobiles_Inbound",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PMDM Event Processors",
+    "itemURL" : "step://SetupGroup?id=PMDM.EventProcessors",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Ecomm Inbound",
+    "itemURL" : "step://SetupGroup?id=Ecomm_Inbound",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SU4 IIEP",
+    "itemURL" : "step://SetupGroup?id=SU4IIEP",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Demo test webUi",
+    "itemURL" : "step://SetupGroup?id=Demo_test_webUi",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Gateway Integration Endpoint Category",
+    "itemURL" : "step://objecttype?id=GatewayIntegrationEndpointCategory",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Test Site WEB UI",
+    "itemURL" : "step://SetupGroup?id=Test_Site_WEB_UI",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SN1_IIEP",
+    "itemURL" : "step://SetupGroup?id=SN1_IIEP",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Event Processors",
+    "itemURL" : "step://objecttype?id=EventProcessors",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2093249 - Product Workflow Group",
+    "itemURL" : "step://SetupGroup?id=2093249_ProductWorkflowGroup",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Item Load Condition",
+    "itemURL" : "step://SetupGroup?id=ItemLoad_Condition",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Sports",
+    "itemURL" : "step://SetupGroup?id=BG_sportsShop",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Wendys 2378248",
+    "itemURL" : "step://SetupGroup?id=Wendys_2378248",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2393418 Business Rules",
+    "itemURL" : "step://SetupGroup?id=2393418_BusinessRules",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Workflow Auditing",
+    "itemURL" : "step://objecttype?id=Workflow+Auditing",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "test_1",
+    "itemURL" : "step://SetupGroup?id=test_1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2130798 BusinessAction",
+    "itemURL" : "step://SetupGroup?id=2130798_BusinessAction",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Web Service Endpoint",
+    "itemURL" : "step://objecttype?id=WebServiceEndpoint",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Clothing UI",
+    "itemURL" : "step://SetupGroup?id=Clothing_UI",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Outbound Integration Endpoint Type",
+    "itemURL" : "step://objecttype?id=OutboundEndpoint+user-type+root",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "123_Demo",
+    "itemURL" : "step://SetupGroup?id=123_Demo",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "262748_ Business Group",
+    "itemURL" : "step://SetupGroup?id=262748_+Business+Group",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "resort_businessrule",
+    "itemURL" : "step://SetupGroup?id=resort_businessrule",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "BN Test Group",
+    "itemURL" : "step://SetupGroup?id=BNTestGroup",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATHDW327005_2152815_AKHIL_Workflow",
+    "itemURL" : "step://SetupGroup?id=ATHDW327005_2152815_AKHIL_Workflow",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Inbound Integration Endpoints",
+    "itemURL" : "step://SetupGroup?id=Inbound+Integration+Endpoints",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2130798 Business Condition",
+    "itemURL" : "step://SetupGroup?id=2130798_BusinessCondition",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2415959_TJ_BR's",
+    "itemURL" : "step://SetupGroup?id=2415959_TJ_BR%27s",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SU8IIEP",
+    "itemURL" : "step://SetupGroup?id=SU8IIEP",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Wiki Setup Group",
+    "itemURL" : "step://SetupGroup?id=Wiki+Setup+Group",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "OIEP / IIEP Rules",
+    "itemURL" : "step://SetupGroup?id=STEPDEV252BR",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "",
+    "itemURL" : "step://ListOfValues?id=stibo.derivedEventType",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Internal Workflows",
+    "itemURL" : "step://SetupGroup?id=PMDM.WorkflowsInternal",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Groups",
+    "itemURL" : "step://attributegroup?id=Attribute+group+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "TestInbound",
+    "itemURL" : "step://SetupGroup?id=TestInbound",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "k-work",
+    "itemURL" : "step://SetupGroup?id=k-work",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Wendy's Portals",
+    "itemURL" : "step://SetupGroup?id=WUI_Wendys",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Business Conditions",
+    "itemURL" : "step://SetupGroup?id=721350_BusinessConditions",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "759058_BR",
+    "itemURL" : "step://SetupGroup?id=759058_BR",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Real Estate",
+    "itemURL" : "step://attributegroup?id=MCDRealEstate",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PDX Outbound Integration Endpoint Type",
+    "itemURL" : "step://objecttype?id=PDS+Outbound+Integration+Endpoint+Type",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PJT_BR's",
+    "itemURL" : "step://SetupGroup?id=PJT_BR%27s",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "OIEP_Anand",
+    "itemURL" : "step://SetupGroup?id=OIEP_Anand",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Test_workflow",
+    "itemURL" : "step://SetupGroup?id=test_wf",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2107533 Web UI Group",
+    "itemURL" : "step://SetupGroup?id=2107533_web_ui_group",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Camera Workflow Group",
+    "itemURL" : "step://SetupGroup?id=908972_ATHDW327005_Workflow",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2407785",
+    "itemURL" : "step://SetupGroup?id=2407785",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SUx IIEP",
+    "itemURL" : "step://SetupGroup?id=SUx_In",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Lists of Values / LOVs",
+    "itemURL" : "step://ListOfValuesGroup?id=List+Of+Values+group+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATHDW327005_2159760_Santhosh",
+    "itemURL" : "step://SetupGroup?id=ATHDW327005_2159760_Santhosh",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Matching Algorithm",
+    "itemURL" : "step://objecttype?id=Matching+Algorithm",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2139583 WF",
+    "itemURL" : "step://SetupGroup?id=2139583_WF",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Gateway Integration Endpoints (GIEP)",
+    "itemURL" : "step://SetupGroup?id=GIEP",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Workflow Profiles",
+    "itemURL" : "step://objecttype?id=Workflow+Profiles",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2492667_Outbounds",
+    "itemURL" : "step://SetupGroup?id=2492667_Outbounds",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute",
+    "itemURL" : "step://objecttype?id=stibo.normalattribute",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Configuration Objects",
+    "itemURL" : "step://SetupGroup?id=ConfigurationObjects",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2138_Workflows",
+    "itemURL" : "step://SetupGroup?id=Workflows_401",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AK_BusinessRulesGroup",
+    "itemURL" : "step://SetupGroup?id=AK_BusinessRulesGroup",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "McDonaldsDemoLOVGrp",
+    "itemURL" : "step://ListOfValuesGroup?id=McDonaldsDemoLOVGrp",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "TestParent Root",
+    "itemURL" : "step://SetupGroup?id=TestParent+Root",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Wendys BR",
+    "itemURL" : "step://SetupGroup?id=Wendys_BR",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "External Workflows",
+    "itemURL" : "step://SetupGroup?id=PMDM.WorkflowsExternal",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Inbound Integration Endpoint Type",
+    "itemURL" : "step://objecttype?id=InboundEndpoint+user-type+root",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PMDM Workflows",
+    "itemURL" : "step://SetupGroup?id=PMDM.Workflows",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "001M_Electronics",
+    "itemURL" : "step://SetupGroup?id=001M_Electronics",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SN1 Workflows",
+    "itemURL" : "step://SetupGroup?id=SN1_Workflows",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SU1OIEPS",
+    "itemURL" : "step://SetupGroup?id=SU1OIEPS",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "IIEP_Group",
+    "itemURL" : "step://SetupGroup?id=IIEP_Group",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Wiki Setup Group Type",
+    "itemURL" : "step://objecttype?id=Wiki+Setup+Group+Type",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "936_workflow",
+    "itemURL" : "step://SetupGroup?id=936_wf",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "297417_DM_2025_IIEP",
+    "itemURL" : "step://SetupGroup?id=297417_DM_2025_IIEP",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PMDM Match Codes and Matching Algorithms",
+    "itemURL" : "step://SetupGroup?id=PMDM.MatchCodesAndMatchingAlgorithms",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "001Y_Elect_InBound",
+    "itemURL" : "step://SetupGroup?id=001Y_Elect_InBound",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Organization Alignment",
+    "itemURL" : "step://attributegroup?id=MCDOrganizationAlignment",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "GDSN Receiver Inbound",
+    "itemURL" : "step://SetupGroup?id=PMDM.GDSNReceiverInbound",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SM_BR",
+    "itemURL" : "step://SetupGroup?id=SM_BR",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Status Flags Setup Group Category",
+    "itemURL" : "step://objecttype?id=StatusFlagsSetupGroupCategory",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "297417_CTHDW032116_Workflow",
+    "itemURL" : "step://SetupGroup?id=297417_CTHDW032116_Workflow",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SU5IIEP",
+    "itemURL" : "step://SetupGroup?id=SU5IIEP",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Workflow Auditing",
+    "itemURL" : "step://SetupGroup?id=Workflow+Auditing",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "L Uday",
+    "itemURL" : "step://SetupGroup?id=L_Uday",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "001M_ElectroMartWebUIs",
+    "itemURL" : "step://SetupGroup?id=001M_ElectroMartWebUIs",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2407785_Cuisine",
+    "itemURL" : "step://SetupGroup?id=2407785_Cuisine",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2392951_OIEP_Practice",
+    "itemURL" : "step://SetupGroup?id=2392951_OIEP_Practice",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Matching Agent",
+    "itemURL" : "step://objecttype?id=MatchingAgent",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "704987_BusinessRules",
+    "itemURL" : "step://SetupGroup?id=704987_BusinessRules",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Ak Demo project UIs",
+    "itemURL" : "step://SetupGroup?id=Ak_Demo_project_UIs",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Training",
+    "itemURL" : "step://SetupGroup?id=Training",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "703815 Workflow Setup Group",
+    "itemURL" : "step://SetupGroup?id=703815_Workflow_Setup_Group",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2407785_Workflow",
+    "itemURL" : "step://SetupGroup?id=2407785_Workflow",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Display Sequence",
+    "itemURL" : "step://attribute?id=PMDM.AT.DisplaySequence",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "001Y_Product_Export",
+    "itemURL" : "step://SetupGroup?id=001Y_Product_Export",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SU8 OIEPS",
+    "itemURL" : "step://SetupGroup?id=SU8OIEPS",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "297417_DM_2025_BusinessRule",
+    "itemURL" : "step://SetupGroup?id=297417_DM_2025_BusinessRule",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ERP Outbound",
+    "itemURL" : "step://SetupGroup?id=PMDM.ERPOutbound",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2160152_BR_Group",
+    "itemURL" : "step://SetupGroup?id=2160152_BR_Group",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Business Actions",
+    "itemURL" : "step://SetupGroup?id=721350_BusinessActions",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "001G WebUI's",
+    "itemURL" : "step://SetupGroup?id=001G_WebUIs",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Event Processor",
+    "itemURL" : "step://objecttype?id=Event+Processor+user-type+root",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Gateway Endpoints",
+    "itemURL" : "step://SetupGroup?id=GatewayEndpoints",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "But",
+    "itemURL" : "step://attribute?id=PMDM.AT.Purpose",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SN1_Global_Business_Rules",
+    "itemURL" : "step://SetupGroup?id=SN1_Global_Business_Rules",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2414457_oiep",
+    "itemURL" : "step://SetupGroup?id=2414457_oiep",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2416138_Workflow",
+    "itemURL" : "step://SetupGroup?id=2416138_Workflow",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "001G Business Rules",
+    "itemURL" : "step://SetupGroup?id=001G_Business_Rules",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SU10OIEPS",
+    "itemURL" : "step://SetupGroup?id=SU10OIEPS",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2492667 WEBUI Group",
+    "itemURL" : "step://SetupGroup?id=WEBUIG_2492667WEBUIGroup",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SU02IIEP",
+    "itemURL" : "step://SetupGroup?id=SU02IIEP",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "test_br",
+    "itemURL" : "step://SetupGroup?id=test",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "01 Auto Mobile",
+    "itemURL" : "step://SetupGroup?id=BRG_AutoMobile",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Display Sequence",
+    "itemURL" : "step://attribute?id=DisplaySequence",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "STEP DEV 251",
+    "itemURL" : "step://SetupGroup?id=STEPARC230WORKFLOWS",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Mcd GLIN",
+    "itemURL" : "step://attribute?id=Mcd+GLIN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2378248_WF",
+    "itemURL" : "step://SetupGroup?id=2378248_WF",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2492667 Inbounds",
+    "itemURL" : "step://SetupGroup?id=IIEPG_2492667Inbounds",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Gateway Integration Endpoints",
+    "itemURL" : "step://objecttype?id=GatewayIntegrationEndpoints",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "460791_BC",
+    "itemURL" : "step://SetupGroup?id=460791_BC",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "001Y_Business_Rules",
+    "itemURL" : "step://SetupGroup?id=001Y_Business_Rules",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Drive-Thru/POS",
+    "itemURL" : "step://attributegroup?id=MCDDriveThruPOS",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Backup Inbound",
+    "itemURL" : "step://SetupGroup?id=Backup",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Test",
+    "itemURL" : "step://SetupGroup?id=Test",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "COE AI Business Rules",
+    "itemURL" : "step://SetupGroup?id=COE_AI_Business_Rules",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "GMM_Businessn Actions",
+    "itemURL" : "step://SetupGroup?id=GMM_Business_Actions",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "297417_CTHDW032116_Business Rules",
+    "itemURL" : "step://SetupGroup?id=297417_CTHDW032116_Business+Rules",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Global Business Rules",
+    "itemURL" : "step://SetupGroup?id=GlobalBusinessRules_Root",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Training Workflow",
+    "itemURL" : "step://SetupGroup?id=Training_WF",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "001M_BRs",
+    "itemURL" : "step://SetupGroup?id=001M_BRs",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2414804 Test Group",
+    "itemURL" : "step://SetupGroup?id=2414804+Test+Group",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Validate_Product_Field",
+    "itemURL" : "step://objecttype?id=Validate_Product_Field",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Location Type",
+    "itemURL" : "step://attribute?id=McdLocationType",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Business Library Type",
+    "itemURL" : "step://objecttype?id=stibo.businessrule.library",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "400524 Training Business Rules",
+    "itemURL" : "step://SetupGroup?id=400524_TrainingRules",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SN1_Business_Group",
+    "itemURL" : "step://SetupGroup?id=SN1_Business_Group",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2147987 WebUI",
+    "itemURL" : "step://SetupGroup?id=2147987+WebUI",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2413920 Work Flow",
+    "itemURL" : "step://SetupGroup?id=2413920_Work_Flow",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group root",
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Site Locale",
+    "itemURL" : "step://attributegroup?id=MCDSiteLocale",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2413920 BRs",
+    "itemURL" : "step://SetupGroup?id=2413920_BRs",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2191396 MSProduct Business Action",
+    "itemURL" : "step://SetupGroup?id=2191396_MSProduct_Business_Action",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2107533 2025 OIEP",
+    "itemURL" : "step://SetupGroup?id=2107533_2025_OIEP",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2416048_workflow_Group",
+    "itemURL" : "step://SetupGroup?id=2416048_workflow_Group",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "BRs",
+    "itemURL" : "step://SetupGroup?id=2413939_BRs",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "wf_cat_traning",
+    "itemURL" : "step://SetupGroup?id=wf_cat_traning",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Asset Inbound",
+    "itemURL" : "step://SetupGroup?id=PMDM.AssetInbound",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "962231 Rest API",
+    "itemURL" : "step://SetupGroup?id=963321_REST_API",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ERP Inbound",
+    "itemURL" : "step://SetupGroup?id=PMDM.ERPInbound",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "23228930011",
+    "itemURL" : "step://SetupGroup?id=23228930011",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Status flag type",
+    "itemURL" : "step://objecttype?id=stibo.taskstatus+Type",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "801636_Business_Rules",
+    "itemURL" : "step://SetupGroup?id=801636_Business_Rules",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SUx OIEP",
+    "itemURL" : "step://SetupGroup?id=SUx",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Wendys Business Rules",
+    "itemURL" : "step://SetupGroup?id=Wendys_Business_Rules",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PDX Inbound Integration Endpoint Type",
+    "itemURL" : "step://objecttype?id=PDS+Inbound+Integration+Endpoint+Type",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Restaurant Ownership",
+    "itemURL" : "step://attributegroup?id=MCDRestaurantOwnership",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "McDonalds Demo",
+    "itemURL" : "step://attributegroup?id=McDonaldsDemo",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "GMM Workflows",
+    "itemURL" : "step://SetupGroup?id=GMM_Workflows",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "XYZBR's",
+    "itemURL" : "step://SetupGroup?id=89196",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "IIEP_Mobile",
+    "itemURL" : "step://SetupGroup?id=IIEP_Mobile",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Libraries",
+    "itemURL" : "step://SetupGroup?id=Libraries",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Demoooooooooooooooo",
+    "itemURL" : "step://SetupGroup?id=Demoooooooooooooooo",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Match Tuning Configuration",
+    "itemURL" : "step://objecttype?id=MatchTuningConfiguration",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Status Flags",
+    "itemURL" : "step://objecttype?id=StatusFlags",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PMDM Inbound Integration Endpoints",
+    "itemURL" : "step://SetupGroup?id=PMDM.InboundIntegrationEndpoints",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "obsg_traninng_products",
+    "itemURL" : "step://SetupGroup?id=obsg_traninng_products",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Workflow Profile Setup Group Category",
+    "itemURL" : "step://objecttype?id=WorkflowProfileSetupGroupCategory",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2130450_Business Rule",
+    "itemURL" : "step://SetupGroup?id=2130450_Business+Rule",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "297417_WebUI",
+    "itemURL" : "step://SetupGroup?id=297417_CTHDW032116_WebUI",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SU3OIEPS",
+    "itemURL" : "step://SetupGroup?id=SU3OIEPS",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PDX Outbound Setup Group",
+    "itemURL" : "step://SetupGroup?id=PDS+Outbound+Setup+Group",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2392951_WebUIGroup",
+    "itemURL" : "step://SetupGroup?id=2392951_WebUIGroup",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "297417_DM_Workflow",
+    "itemURL" : "step://SetupGroup?id=297417_DM_Workflow",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2378248 Web UI",
+    "itemURL" : "step://SetupGroup?id=2378248_Web_UI",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SU01 IIEP",
+    "itemURL" : "step://SetupGroup?id=SU01IIEP",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2107533 2025 IIEP",
+    "itemURL" : "step://SetupGroup?id=2107533_2025_iiep",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2416138_WebUI",
+    "itemURL" : "step://SetupGroup?id=2416138_WebUI",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AK DemoProject PhoneWFs",
+    "itemURL" : "step://SetupGroup?id=AK_DemoProject_PhoneWFs",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Functions",
+    "itemURL" : "step://SetupGroup?id=Functions",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product_Rules",
+    "itemURL" : "step://SetupGroup?id=Product_Rules",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Training Product",
+    "itemURL" : "step://SetupGroup?id=brgp_Training_product",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Gateway Integration Endpoint Type",
+    "itemURL" : "step://objecttype?id=GatewayEndpoint+user-type+root",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Location Identifiers",
+    "itemURL" : "step://attributegroup?id=MCDLocationIdentifiers",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language Root",
+    "itemURL" : "step://dimensionpoint?id=std.lang.all",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "STEP Workflow Profile Type",
+    "itemURL" : "step://objecttype?id=stibo.STEPWorkflowProfile+Type",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "460791_OIEP",
+    "itemURL" : "step://SetupGroup?id=460791_OIEP",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AD setup Group root type",
+    "itemURL" : "step://objecttype?id=AD_setup_Group_root_type",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2416138_ProductUI",
+    "itemURL" : "step://SetupGroup?id=2416138_ProductUI",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Actions",
+    "itemURL" : "step://SetupGroup?id=Actions",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "accessories",
+    "itemURL" : "step://SetupGroup?id=BRG_accessories",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "001Y_Product_WebUIs",
+    "itemURL" : "step://SetupGroup?id=001Y_Product_WebUIs",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2147987_WEBUI",
+    "itemURL" : "step://SetupGroup?id=2147987_WEBUI",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "721350 WF Setup Group",
+    "itemURL" : "step://SetupGroup?id=SG_721350WFGroup",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Outbound Integration Endpoints",
+    "itemURL" : "step://objecttype?id=Outbound+Integration+Endpoints",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PDX Inbound Setup Group",
+    "itemURL" : "step://SetupGroup?id=PDS+Inbound+Setup+Group",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "POC BR",
+    "itemURL" : "step://SetupGroup?id=POC_BR",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PMDM Web UIs",
+    "itemURL" : "step://SetupGroup?id=PMDM.WebUIs",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Test Workflow Group",
+    "itemURL" : "step://SetupGroup?id=Test+Workflow+Group",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "EventProcessors",
+    "itemURL" : "step://SetupGroup?id=EventProcessors",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "akdemogroup",
+    "itemURL" : "step://SetupGroup?id=akdemogroup",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2322893_Process_WF",
+    "itemURL" : "step://SetupGroup?id=2322893",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "001G_Product",
+    "itemURL" : "step://SetupGroup?id=001G_Product",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PDX Inbound",
+    "itemURL" : "step://SetupGroup?id=PDXInbound",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Domains",
+    "itemURL" : "step://objecttype?id=Domain+user-type+root",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2148034_group",
+    "itemURL" : "step://SetupGroup?id=2148034_group",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Classification Codes",
+    "itemURL" : "step://attributegroup?id=MCDClassificationCodes",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Mulayam Business Rule",
+    "itemURL" : "step://SetupGroup?id=1102",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SU2OIEPS",
+    "itemURL" : "step://SetupGroup?id=SU2OIEP",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SU7IIEP",
+    "itemURL" : "step://SetupGroup?id=SU7IIEP",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2150_BR_GRP",
+    "itemURL" : "step://SetupGroup?id=2150_BR_GRP",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2130798 Indra BR",
+    "itemURL" : "step://SetupGroup?id=2130798_IndraBR",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2107533 2025 Workflow",
+    "itemURL" : "step://SetupGroup?id=2107533_2025_workflow",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AD oiep",
+    "itemURL" : "step://SetupGroup?id=AD_oiep",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Purpose",
+    "itemURL" : "step://attribute?id=Purpose",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Global Business Rules",
+    "itemURL" : "step://objecttype?id=GlobalBusinessRules",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Gateway Integration Endpoints",
+    "itemURL" : "step://SetupGroup?id=GatewayIntegrationEndpointRoot",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Web UIs",
+    "itemURL" : "step://SetupGroup?id=WebUIs",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AK Outbounds",
+    "itemURL" : "step://SetupGroup?id=AK_Outbounds",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SU3 IIEP",
+    "itemURL" : "step://SetupGroup?id=SU3IIEP",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Training OIEP",
+    "itemURL" : "step://SetupGroup?id=OIEP_Group",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Capstone Project",
+    "itemURL" : "step://SetupGroup?id=CapstoneProjectIN",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Demo",
+    "itemURL" : "step://SetupGroup?id=STEPDEV252OIEP",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Workflows",
+    "itemURL" : "step://objecttype?id=Workflows",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Test_ATRG",
+    "itemURL" : "step://attributegroup?id=Test_ATRG",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Conditions",
+    "itemURL" : "step://SetupGroup?id=Conditions",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2393418 Workflows",
+    "itemURL" : "step://SetupGroup?id=2393418_Workflows",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "STEP Workflow Type",
+    "itemURL" : "step://objecttype?id=stibo.STEPWorkflow+Type",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "7745708_Workflows",
+    "itemURL" : "step://SetupGroup?id=7745708_Workflows",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Outbound Integration Endpoints",
+    "itemURL" : "step://SetupGroup?id=Outbound+Integration+Endpoints",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "704987 WorkflowGroup",
+    "itemURL" : "step://SetupGroup?id=704987_WorkflowGroup",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2392951_OIEPGroup",
+    "itemURL" : "step://SetupGroup?id=2392951_OIEPGroup",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Test_Workflow",
+    "itemURL" : "step://SetupGroup?id=Test_Workflow",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Workflow Setup Group Category",
+    "itemURL" : "step://objecttype?id=WorkflowSetupGroupCategory",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Match Code",
+    "itemURL" : "step://objecttype?id=Match+Code",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "001M_Electronics_InBound",
+    "itemURL" : "step://SetupGroup?id=001M_Electronics_InBound",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "STEP DEV 251",
+    "itemURL" : "step://SetupGroup?id=STEPARC230GIEPGRP",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Training Workflows",
+    "itemURL" : "step://SetupGroup?id=Training_Workflows",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Business Condition Type",
+    "itemURL" : "step://objecttype?id=stibo.businessrule.condition",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Outbound Setup Group Category",
+    "itemURL" : "step://objecttype?id=OutboundSetupGroupCategory",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Capstone Project",
+    "itemURL" : "step://SetupGroup?id=CapstoneProject",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Merck_Mockup_Web_UI",
+    "itemURL" : "step://SetupGroup?id=Merck_Mockup_Web_UI",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Inbound Integration Endpoints",
+    "itemURL" : "step://objecttype?id=Inbound+Integration+Endpoints",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "1-workflow",
+    "itemURL" : "step://SetupGroup?id=1-workflow",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "BR_J74570",
+    "itemURL" : "step://SetupGroup?id=BR_J74570",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2416048_Product",
+    "itemURL" : "step://SetupGroup?id=2416048_Product",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SU7 OIEP",
+    "itemURL" : "step://SetupGroup?id=SU7OIEP",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language",
+    "itemURL" : "step://dimension?id=Language",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PMDM Workflow Profiles",
+    "itemURL" : "step://SetupGroup?id=PMDM.WorkflowProfiles",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2407785_OIEP_SU",
+    "itemURL" : "step://SetupGroup?id=2407785_OIEP_SU",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SU5 OIEP",
+    "itemURL" : "step://SetupGroup?id=SU5+OIEP",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PDX Out Integration Setup Group Type",
+    "itemURL" : "step://objecttype?id=PDS+Out+Integration+Setup+Group+Type",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Portal Configuration Type",
+    "itemURL" : "step://objecttype?id=stibo.portal+Type",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Group",
+    "itemURL" : "step://objecttype?id=stibo.grouping+attribute",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SU10IIEP",
+    "itemURL" : "step://SetupGroup?id=SU10IIEP",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "EBAY INTEGRATION ENDPOINTS",
+    "itemURL" : "step://SetupGroup?id=EBAY_INTEGRATION_ENDPOINTS",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group type root",
+    "itemURL" : "step://objecttype?id=Setup+Group+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2091339",
+    "itemURL" : "step://SetupGroup?id=2091339",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Wendy's Workflow",
+    "itemURL" : "step://SetupGroup?id=WF_Wendys",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2158111-workflow",
+    "itemURL" : "step://SetupGroup?id=2158111-workflow",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Matching Algorithm with Linked Match Code",
+    "itemURL" : "step://objecttype?id=Matching+Algorithm+Linked+Match+Code",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATHDW327005_2314064_WF",
+    "itemURL" : "step://SetupGroup?id=ATHDW327005_2314064_WF",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "McDDemo",
+    "itemURL" : "step://SetupGroup?id=McDDemo",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2107533 CTHDW032116 Business Rules",
+    "itemURL" : "step://SetupGroup?id=CTHDW032116_2107533_br",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "NIKHIL_BUISNESSRULE",
+    "itemURL" : "step://SetupGroup?id=NIKHIL_BUISNESSRULE",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "297417_Product_workflow",
+    "itemURL" : "step://SetupGroup?id=297417_Product_workflow",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Business Function Type",
+    "itemURL" : "step://objecttype?id=stibo.businessrule.function",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Demo",
+    "itemURL" : "step://SetupGroup?id=STEPDEV252",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Global Business Rules",
+    "itemURL" : "step://SetupGroup?id=GlobalBusinessRulesRoot",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Web UIs",
+    "itemURL" : "step://objecttype?id=WebUIs",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Item Load Actions",
+    "itemURL" : "step://SetupGroup?id=ItemLoad_Action",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Akhil Brs",
+    "itemURL" : "step://SetupGroup?id=Akhil_Brs",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2026-11-10 04:07:29\"    >\n\n  <Qualifiers>\n    <Qualifier ID=\"en-US\">\n      <DimensionPointLink DimensionPointID=\"en-US\"/>\n    </Qualifier>\n  </Qualifiers>\n\n  <DerivedEventTypes>\n    <DerivedEventType>include</DerivedEventType>\n    <DerivedEventType>AC_Test</DerivedEventType>\n    <DerivedEventType>test</DerivedEventType>\n    <DerivedEventType>WebModify</DerivedEventType>\n    <DerivedEventType>ElasticsearchReindexingCancel</DerivedEventType>\n    <DerivedEventType>GDS_DeleteRVGNode_Event</DerivedEventType>\n    <DerivedEventType>Maintenance</DerivedEventType>\n    <DerivedEventType>Asset Keywords Event</DerivedEventType>\n    <DerivedEventType>perfsol</DerivedEventType>\n    <DerivedEventType>001M_ProductReviewedEvent</DerivedEventType>\n    <DerivedEventType>Matching</DerivedEventType>\n    <DerivedEventType>NEW DERIVED</DerivedEventType>\n    <DerivedEventType>perf2</DerivedEventType>\n    <DerivedEventType>su2include</DerivedEventType>\n    <DerivedEventType>perf1</DerivedEventType>\n    <DerivedEventType>WebRemove</DerivedEventType>\n    <DerivedEventType>ElasticsearchReindexingStart</DerivedEventType>\n    <DerivedEventType>ElasticsearchReindexingFinish</DerivedEventType>\n    <DerivedEventType>outbound_721350</DerivedEventType>\n    <DerivedEventType>WebAdd</DerivedEventType>\n  </DerivedEventTypes>\n\n  <ListOfValuesGroupList>\n    <ListOfValuesGroup ID=\"McDonaldsDemoLOVGrp\" ParentID=\"List Of Values group root\">\n      <Name QualifierID=\"Qualifier root\">McDonaldsDemoLOVGrp</Name>\n    </ListOfValuesGroup>\n  </ListOfValuesGroupList>\n\n  <AttributeGroupList>\n\n  <AttributeGroup ID=\"McDonaldsDemo\" ShowInWorkbench=\"true\" ManuallySorted=\"false\" ParentID=\"Attribute group root\">\n    <Name QualifierID=\"en-US\">McDonalds Demo</Name>\n  </AttributeGroup>\n  </AttributeGroupList>\n\n  <SetupGroups>\n    <SetupGroup ID=\"PMDM.GatewayEndpoints\" UserTypeID=\"Gateway Endpoints\" ParentID=\"Setup Group hierarchy root\">\n      <Name QualifierID=\"Qualifier root\">PMDM Gateway Endpoints</Name>\n    </SetupGroup>\n    <SetupGroup ID=\"Outbound Integration Endpoints\" UserTypeID=\"Outbound Integration Endpoints\" ParentID=\"Setup Group hierarchy root\">\n      <Name QualifierID=\"Qualifier root\">Outbound Integration Endpoints</Name>\n    </SetupGroup>\n    <SetupGroup ID=\"StatusFlags\" UserTypeID=\"StatusFlags\" ParentID=\"Setup Group hierarchy root\">\n      <Name QualifierID=\"Qualifier root\">Status Flags</Name>\n    </SetupGroup>\n    <SetupGroup ID=\"WebUIs\" UserTypeID=\"WebUIs\" ParentID=\"Setup Group hierarchy root\">\n      <Name QualifierID=\"Qualifier root\">Web UIs</Name>\n    </SetupGroup>\n    <SetupGroup ID=\"Wiki Setup Group\" UserTypeID=\"Wiki Setup Group Type\" ParentID=\"Setup Group hierarchy root\">\n      <Name QualifierID=\"Qualifier root\">Wiki Setup Group</Name>\n    </SetupGroup>\n    <SetupGroup ID=\"PMDM.InboundIntegrationEndpoints\" UserTypeID=\"Inbound Integration Endpoints\" ParentID=\"Setup Group hierarchy root\">\n      <Name QualifierID=\"Qualifier root\">PMDM Inbound Integration Endpoints</Name>\n    </SetupGroup>\n    <SetupGroup ID=\"PDS Outbound Setup Group\" UserTypeID=\"PDS Out Integration Setup Group Type\" ParentID=\"Setup Group hierarchy root\">\n      <Name QualifierID=\"Qualifier root\">PDX Outbound Setup Group</Name>\n    </SetupGroup>\n    <SetupGroup ID=\"PMDM.OutboundIntegrationEndpoints\" UserTypeID=\"Outbound Integration Endpoints\" ParentID=\"Setup Group hierarchy root\">\n      <Name QualifierID=\"Qualifier root\">PMDM Outbound Integration Endpoints</Name>\n    </SetupGroup>\n    <SetupGroup ID=\"PMDM.MatchCodesAndMatchingAlgorithms\" UserTypeID=\"MatchCodesAndMatchingAlgorithms\" ParentID=\"Setup Group hierarchy root\">\n      <Name QualifierID=\"Qualifier root\">PMDM Match Codes and Matching Algorithms</Name>\n    </SetupGroup>\n    <SetupGroup ID=\"Workflows\" UserTypeID=\"Workflows\" ParentID=\"Setup Group hierarchy root\">\n      <Name QualifierID=\"Qualifier root\">Workflows</Name>\n    </SetupGroup>\n    <SetupGroup ID=\"PMDM.Workflows\" UserTypeID=\"Workflows\" ParentID=\"Setup Group hierarchy root\">\n      <Name QualifierID=\"Qualifier root\">PMDM Workflows</Name>\n    </SetupGroup>\n    <SetupGroup ID=\"GatewayIntegrationEndpointRoot\" UserTypeID=\"GatewayIntegrationEndpoints\" ParentID=\"Setup Group hierarchy root\">\n      <Name QualifierID=\"Qualifier root\">Gateway Integration Endpoints</Name>\n    </SetupGroup>\n    <SetupGroup ID=\"GlobalBusinessRulesRoot\" UserTypeID=\"GlobalBusinessRules\" ParentID=\"Setup Group hierarchy root\">\n      <Name QualifierID=\"Qualifier root\">Global Business Rules</Name>\n    </SetupGroup>\n    <SetupGroup ID=\"PDS Inbound Setup Group\" UserTypeID=\"PDS Inbound Integration Setup Group Type\" ParentID=\"Setup Group hierarchy root\">\n      <Name QualifierID=\"Qualifier root\">PDX Inbound Setup Group</Name>\n    </SetupGroup>\n    <SetupGroup ID=\"PMDM.EventProcessors\" UserTypeID=\"EventProcessors\" ParentID=\"Setup Group hierarchy root\">\n      <Name QualifierID=\"Qualifier root\">PMDM Event Processors</Name>\n    </SetupGroup>\n    <SetupGroup ID=\"Inbound Integration Endpoints\" UserTypeID=\"Inbound Integration Endpoints\" ParentID=\"Setup Group hierarchy root\">\n      <Name QualifierID=\"Qualifier root\">Inbound Integration Endpoints</Name>\n    </SetupGroup>\n    <SetupGroup ID=\"EventProcessors\" UserTypeID=\"EventProcessors\" ParentID=\"Setup Group hierarchy root\">\n      <Name QualifierID=\"Qualifier root\">EventProcessors</Name>\n    </SetupGroup>\n    <SetupGroup ID=\"PMDM.WebUIs\" UserTypeID=\"WebUIs\" ParentID=\"Setup Group hierarchy root\">\n      <Name QualifierID=\"Qualifier root\">PMDM Web UIs</Name>\n    </SetupGroup>\n    <SetupGroup ID=\"GatewayEndpoints\" UserTypeID=\"Gateway Endpoints\" ParentID=\"Setup Group hierarchy root\">\n      <Name QualifierID=\"Qualifier root\">Gateway Endpoints</Name>\n    </SetupGroup>\n    <SetupGroup ID=\"PMDM.WorkflowProfiles\" UserTypeID=\"Workflow Profiles\" ParentID=\"Setup Group hierarchy root\">\n      <Name QualifierID=\"Qualifier root\">PMDM Workflow Profiles</Name>\n    </SetupGroup>\n  </SetupGroups>\n</STEP-ProductInformation>\n",
+  "signatory" : "AGRAJU",
+  "comment" : "V2"
+}

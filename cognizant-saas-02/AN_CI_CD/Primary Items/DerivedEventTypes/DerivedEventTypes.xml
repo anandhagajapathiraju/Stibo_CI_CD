@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <DerivedEventTypes>
+        <DerivedEventType>include</DerivedEventType>
+        <DerivedEventType>AC_Test</DerivedEventType>
+        <DerivedEventType>test</DerivedEventType>
+        <DerivedEventType>WebModify</DerivedEventType>
+        <DerivedEventType>ElasticsearchReindexingCancel</DerivedEventType>
+        <DerivedEventType>GDS_DeleteRVGNode_Event</DerivedEventType>
+        <DerivedEventType>Maintenance</DerivedEventType>
+        <DerivedEventType>Asset Keywords Event</DerivedEventType>
+        <DerivedEventType>perfsol</DerivedEventType>
+        <DerivedEventType>001M_ProductReviewedEvent</DerivedEventType>
+        <DerivedEventType>Matching</DerivedEventType>
+        <DerivedEventType>NEW DERIVED</DerivedEventType>
+        <DerivedEventType>perf2</DerivedEventType>
+        <DerivedEventType>su2include</DerivedEventType>
+        <DerivedEventType>perf1</DerivedEventType>
+        <DerivedEventType>WebRemove</DerivedEventType>
+        <DerivedEventType>ElasticsearchReindexingStart</DerivedEventType>
+        <DerivedEventType>ElasticsearchReindexingFinish</DerivedEventType>
+        <DerivedEventType>outbound_721350</DerivedEventType>
+        <DerivedEventType>WebAdd</DerivedEventType>
+    </DerivedEventTypes>
+</STEP-ProductInformation>

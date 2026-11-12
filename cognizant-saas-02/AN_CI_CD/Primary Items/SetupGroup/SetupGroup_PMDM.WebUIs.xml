@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <SetupGroups>
+        <SetupGroup ID="PMDM.WebUIs" UserTypeID="WebUIs" ParentID="Setup Group hierarchy root">
+            <Name QualifierID="Qualifier root">PMDM Web UIs</Name>
+        </SetupGroup>
+    </SetupGroups>
+</STEP-ProductInformation>
