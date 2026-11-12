@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <SetupGroups>
+        <SetupGroup ID="BNTestGroup" UserTypeID="BusinessRuleGroup" ParentID="GlobalBusinessRulesRoot">
+            <Name QualifierID="Qualifier root">BN Test Group</Name>
+        </SetupGroup>
+    </SetupGroups>
+</STEP-ProductInformation>

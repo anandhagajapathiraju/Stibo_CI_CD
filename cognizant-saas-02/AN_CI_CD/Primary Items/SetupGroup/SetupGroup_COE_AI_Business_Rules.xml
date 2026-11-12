@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <SetupGroups>
+        <SetupGroup ID="COE_AI_Business_Rules" UserTypeID="BusinessRuleGroup" ParentID="GlobalBusinessRulesRoot">
+            <Name QualifierID="Qualifier root">COE AI Business Rules</Name>
+        </SetupGroup>
+    </SetupGroups>
+</STEP-ProductInformation>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <SetupGroups>
+        <SetupGroup ID="2130798_BusinessAction" UserTypeID="BusinessRuleGroup" ParentID="GlobalBusinessRulesRoot">
+            <Name QualifierID="Qualifier root">2130798 BusinessAction</Name>
+        </SetupGroup>
+    </SetupGroups>
+</STEP-ProductInformation>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <SetupGroups>
+        <SetupGroup ID="Workflow Auditing" UserTypeID="Workflow Auditing" ParentID="GlobalBusinessRulesRoot">
+            <Name QualifierID="Qualifier root">Workflow Auditing</Name>
+        </SetupGroup>
+    </SetupGroups>
+</STEP-ProductInformation>
