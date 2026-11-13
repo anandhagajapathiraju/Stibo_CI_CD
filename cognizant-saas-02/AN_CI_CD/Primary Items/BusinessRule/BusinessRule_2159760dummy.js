@@ -28,7 +28,7 @@
   "parameters" : [ {
     "id" : "Config",
     "type" : "com.stibo.core.domain.parameter.LOVCrossValidationConfig",
-    "value" : "<map>\n  <entry>\n    <key LOVID=\"Blood Group\">lov3839732</key>\n    <value>\n      <set>\n        <element LOVID=\"Gender\">gen3839737</element>\n        <element LOVID=\"Gender\">gen3839736</element>\n      </set>\n    </value>\n  </entry>\n  <entry>\n    <key LOVID=\"Blood Group\">lov3839735</key>\n    <value>\n      <set>\n        <element LOVID=\"Gender\">gen3839737</element>\n        <element LOVID=\"Gender\">gen3839736</element>\n      </set>\n    </value>\n  </entry>\n  <entry>\n    <key LOVID=\"Blood Group\">lov3839733</key>\n    <value>\n      <set>\n        <element LOVID=\"Gender\">gen3839737</element>\n        <element LOVID=\"Gender\">gen3839736</element>\n      </set>\n    </value>\n  </entry>\n</map>"
+    "value" : "<map>\n  <entry>\n    <key LOVID=\"Blood Group\">lov3839735</key>\n    <value>\n      <set>\n        <element LOVID=\"Gender\">gen3839736</element>\n        <element LOVID=\"Gender\">gen3839737</element>\n      </set>\n    </value>\n  </entry>\n  <entry>\n    <key LOVID=\"Blood Group\">lov3839733</key>\n    <value>\n      <set>\n        <element LOVID=\"Gender\">gen3839736</element>\n        <element LOVID=\"Gender\">gen3839737</element>\n      </set>\n    </value>\n  </entry>\n  <entry>\n    <key LOVID=\"Blood Group\">lov3839732</key>\n    <value>\n      <set>\n        <element LOVID=\"Gender\">gen3839736</element>\n        <element LOVID=\"Gender\">gen3839737</element>\n      </set>\n    </value>\n  </entry>\n</map>"
   }, {
     "id" : "DefiningAttribute",
     "type" : "com.stibo.core.domain.Attribute",
