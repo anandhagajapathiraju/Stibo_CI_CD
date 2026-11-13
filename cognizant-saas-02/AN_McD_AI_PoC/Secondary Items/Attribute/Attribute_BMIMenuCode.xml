@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="BMIMenuCode" MultiValued="false" ProductMode="Property" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Mandatory="false">
+            <Name QualifierID="en-US">BMI Menu Code</Name>
+            <Validation BaseType="number" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <AttributeGroupLink AttributeGroupID="AN_AttrGrp"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="AN_Level2"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

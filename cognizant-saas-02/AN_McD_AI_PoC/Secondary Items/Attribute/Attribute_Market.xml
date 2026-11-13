@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="Market" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Mandatory="false">
+            <Name QualifierID="en-US">Market</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <DimensionLink DimensionID="Country"></DimensionLink>
+            <AttributeGroupLink AttributeGroupID="AN_AttrGrp"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="AN_Level1"></UserTypeLink>
+            <UserTypeLink UserTypeID="RC"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

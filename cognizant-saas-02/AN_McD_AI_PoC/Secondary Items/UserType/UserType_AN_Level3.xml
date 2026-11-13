@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="AND 6665519">
+            <DimensionPointLink DimensionPointID="US"></DimensionPointLink>
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <UserTypes>
+        <UserType ID="AN_Level3" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="false" ReferenceTargetLockPolicy="Relaxed">
+            <Name QualifierID="AND 6665519">AN_Level3</Name>
+            <UserTypeLink UserTypeID="AN_Level2"></UserTypeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

@@ -1,0 +1,2558 @@
+{
+  "version" : "2.1",
+  "id" : "AN_McD_AI_PoC",
+  "name" : "AN_McD_AI_PoC",
+  "metadata" : { },
+  "setupGroupId" : "ChangePackagesRoot",
+  "uniqueId" : "cpk-06b469fc-4548-4228-ab00-820d2bf1618f",
+  "origin" : "cognizant-saas-02",
+  "wasSigned" : "true",
+  "wasExported" : "false",
+  "installMode" : "false",
+  "aspect" : "All",
+  "items" : [ {
+    "name" : "Product_k",
+    "itemURL" : "step://objecttype?id=Product_k",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SNY_Product_Family",
+    "itemURL" : "step://objecttype?id=SNY_Product_Family",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "BA_createReference",
+    "itemURL" : "step://businessrule?id=BA_createReference",
+    "inclusion" : "Derived",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "854515_L1_Product_Line",
+    "itemURL" : "step://objecttype?id=854515_L1_Product_Line",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Electronics Root",
+    "itemURL" : "step://objecttype?id=TRN_ElectronicsRoot",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Business Rule Group",
+    "itemURL" : "step://objecttype?id=BusinessRuleGroup",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Overrides",
+    "itemURL" : "step://objecttype?id=ProductOverrides",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Organization",
+    "itemURL" : "step://objecttype?id=400524_Organization",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Business Action Type",
+    "itemURL" : "step://objecttype?id=stibo.businessrule.action",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "TestProductRoot",
+    "itemURL" : "step://objecttype?id=TestProductRoot",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2110626_level1",
+    "itemURL" : "step://objecttype?id=2110626_level1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Accessories_Clothing",
+    "itemURL" : "step://objecttype?id=2126436_Accessories",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "GMM Products Root",
+    "itemURL" : "step://objecttype?id=GMMProductsRoot",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2147987_ClassificationHierarchy",
+    "itemURL" : "step://objecttype?id=2147987_ClassificationHierarchy",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2392951_BusinessUnit",
+    "itemURL" : "step://objecttype?id=2392951_BusinessUnit",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "L1",
+    "itemURL" : "step://objecttype?id=L1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Root 721350",
+    "itemURL" : "step://objecttype?id=721350_ProductRoot",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "BMIR Menu Code",
+    "itemURL" : "step://attribute?id=BMIRMenuCode",
+    "inclusion" : "Derived",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AAAMart_Level_1",
+    "itemURL" : "step://objecttype?id=FF_Training",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ServiceLOC Operations Root",
+    "itemURL" : "step://objecttype?id=OperationsRoot",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "(01) 393 Root Level",
+    "itemURL" : "step://objecttype?id=01_393_Root_Level",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "resort",
+    "itemURL" : "step://objecttype?id=resort",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2407785",
+    "itemURL" : "step://objecttype?id=2407785",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Discontinued Products",
+    "itemURL" : "step://objecttype?id=DiscontinuedProducts",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Logistic Completeness",
+    "itemURL" : "step://attribute?id=PMDM.AT.LogisticCompleteness",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "055R_Electronics",
+    "itemURL" : "step://objecttype?id=055R_Electronics",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "462545 Our Office Inc Products",
+    "itemURL" : "step://objecttype?id=462545_OOI",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "COE Product Root",
+    "itemURL" : "step://objecttype?id=COE_Product_Root",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2413939 Root Level",
+    "itemURL" : "step://objecttype?id=2413939_Root_Level",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2148034_level1",
+    "itemURL" : "step://objecttype?id=2148034_level1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Master",
+    "itemURL" : "step://objecttype?id=Master",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2393418_PPH",
+    "itemURL" : "step://objecttype?id=2393418_PPH",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SU5 - Office Supplies",
+    "itemURL" : "step://objecttype?id=SU5-Office+Supplies",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "1234567 microphn",
+    "itemURL" : "step://objecttype?id=1234567+microphn",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Wendy's",
+    "itemURL" : "step://objecttype?id=Wendy%27s",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATHDW327005_2153972_PL",
+    "itemURL" : "step://objecttype?id=ATHDW327005_2153972_PL",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATHDW327005_634350_Product Line",
+    "itemURL" : "step://objecttype?id=ATHDW327005_634350_ProductLine",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Search_Result",
+    "itemURL" : "step://objecttype?id=Search_Result",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2160152 category11",
+    "itemURL" : "step://objecttype?id=2160152_category11",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "TATA_Root",
+    "itemURL" : "step://objecttype?id=TATA_Root",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Electronics_PL_1",
+    "itemURL" : "step://objecttype?id=2160152_Electronics_PL_1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2407785_Storage",
+    "itemURL" : "step://attribute?id=2407785_Storage",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2321911_University_Root",
+    "itemURL" : "step://objecttype?id=2321911_University",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Completeness Score",
+    "itemURL" : "step://attribute?id=AttributeCompletenessScore",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Menu Category",
+    "itemURL" : "step://objecttype?id=Menu+Category",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "price_attribute",
+    "itemURL" : "step://attribute?id=price_attribute",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Myntra India",
+    "itemURL" : "step://objecttype?id=Myntra",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Toms Product Hierarchy",
+    "itemURL" : "step://objecttype?id=Toms_Product_Hierarchy",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2107533 2025 Practice Product_L1",
+    "itemURL" : "step://objecttype?id=1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Schema test",
+    "itemURL" : "step://objecttype?id=Schema_Test",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Sport",
+    "itemURL" : "step://objecttype?id=Sport",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "price",
+    "itemURL" : "step://attribute?id=carprice",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Vehicles",
+    "itemURL" : "step://objecttype?id=2116140_Vehicles",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "01_McDonaldTest",
+    "itemURL" : "step://objecttype?id=01_McDonaldTest",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Environment Sustainability",
+    "itemURL" : "step://objecttype?id=EnvironmentSustainability",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "400524 Brand",
+    "itemURL" : "step://objecttype?id=400524_Brand",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Building Material",
+    "itemURL" : "step://objecttype?id=BuildingMaterial",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "RS Address",
+    "itemURL" : "step://objecttype?id=RS+Address",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2046204 Product Line",
+    "itemURL" : "step://objecttype?id=2046204_Product_Line",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "JG Travels",
+    "itemURL" : "step://objecttype?id=801636_JG_Travels",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "801636_University",
+    "itemURL" : "step://objecttype?id=801636_University",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "MNSP Provider",
+    "itemURL" : "step://attribute?id=MNSPProvider",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2128057 Vehicle",
+    "itemURL" : "step://objecttype?id=2128057_vehicle",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Market",
+    "itemURL" : "step://attribute?id=Market",
+    "inclusion" : "Derived",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Groups",
+    "itemURL" : "step://attributegroup?id=Attribute+group+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Ajio Mall",
+    "itemURL" : "step://objecttype?id=Ajio+Mall",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2158958",
+    "itemURL" : "step://objecttype?id=2158958",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "297417_CTHDW032116_Level-1-Product Line",
+    "itemURL" : "step://objecttype?id=297417_CTHDW032116_Level-1-Product+Line",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2091339_ot",
+    "itemURL" : "step://objecttype?id=2091339_ot",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "262748_Level_1 VGuard",
+    "itemURL" : "step://objecttype?id=262748_Level_1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2414804_Level1",
+    "itemURL" : "step://objecttype?id=2414804_Level1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AutoMobile",
+    "itemURL" : "step://objecttype?id=AutoMobile",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2191396 Product Root",
+    "itemURL" : "step://objecttype?id=2191396_Product_Root",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Electronics Product",
+    "itemURL" : "step://objecttype?id=Electronics_Product",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATHDW327005_Apparel",
+    "itemURL" : "step://objecttype?id=2236687_Apparel",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "001G_Product_Family",
+    "itemURL" : "step://objecttype?id=001G_Product_Family",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2150 Mobile X",
+    "itemURL" : "step://objecttype?id=2150_Mobile_X",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2107533 CTHDW032116 Level – 1 - Product Line",
+    "itemURL" : "step://objecttype?id=CTHDW032116_2107533",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Hilfetext",
+    "itemURL" : "step://attribute?id=PMDM.AT.HelpText",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2147987 Product Hierarchy",
+    "itemURL" : "step://objecttype?id=2147987_ProductHierarchy",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Dominos Pizza",
+    "itemURL" : "step://objecttype?id=Dominos+Pizza",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "eBay ERP Product",
+    "itemURL" : "step://objecttype?id=EBAY_ERP_PRODUCT",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AN_Root",
+    "itemURL" : "step://objecttype?id=AN_Root",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : true
+  }, {
+    "name" : "PDX: Description",
+    "itemURL" : "step://attribute?id=PMDM.AT.PDS.Description",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Stationary",
+    "itemURL" : "step://objecttype?id=Stationary",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "759058_Level1",
+    "itemURL" : "step://objecttype?id=759058_Level1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product_Jean",
+    "itemURL" : "step://objecttype?id=Product_Jean",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "RC Root",
+    "itemURL" : "step://objecttype?id=RC_Root",
+    "inclusion" : "Derived",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AN_Level1",
+    "itemURL" : "step://objecttype?id=AN_Level1",
+    "inclusion" : "Derived",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2160152 category",
+    "itemURL" : "step://objecttype?id=2160152_category",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "001G_Product_Class",
+    "itemURL" : "step://objecttype?id=001G_Product_Class",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AN_Level3",
+    "itemURL" : "step://objecttype?id=AN_Level3",
+    "inclusion" : "Derived",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AN_Level2",
+    "itemURL" : "step://objecttype?id=AN_Level2",
+    "inclusion" : "Derived",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "CTS_University",
+    "itemURL" : "step://objecttype?id=CTS_University",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "7745708_PIM",
+    "itemURL" : "step://objecttype?id=7745708_PIM",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Lulu_Supermarket",
+    "itemURL" : "step://objecttype?id=01",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "BB Infosys",
+    "itemURL" : "step://objecttype?id=BB_Infosys",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "908972_Product_L1",
+    "itemURL" : "step://objecttype?id=908972_Product_L1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2407785 Cuisine",
+    "itemURL" : "step://objecttype?id=2407785_Cuisine",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "70381_Product_Line",
+    "itemURL" : "step://objecttype?id=70381_Product_Line",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "u_product",
+    "itemURL" : "step://objecttype?id=u_product",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "297417_CTHDW032116_WebUI",
+    "itemURL" : "step://objecttype?id=297417_CTHDW032116_WebUI",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2406136_Product_Structure",
+    "itemURL" : "step://objecttype?id=2406136_Product_Structure",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Golden-Sales-Item-Root",
+    "itemURL" : "step://objecttype?id=Golden-Sales-Item-Root",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "KVK Company Root",
+    "itemURL" : "step://objecttype?id=KVKCompanyRoot",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Wendys_318778",
+    "itemURL" : "step://objecttype?id=Wendys_318778",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Menu",
+    "itemURL" : "step://objecttype?id=Menu",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute",
+    "itemURL" : "step://objecttype?id=stibo.normalattribute",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Wendys Sample",
+    "itemURL" : "step://objecttype?id=Wendys_Sample",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AR_BusinessRootHierarchy",
+    "itemURL" : "step://objecttype?id=AR_BusinessRootHierarchy",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2130450",
+    "itemURL" : "step://objecttype?id=2130450",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Products",
+    "itemURL" : "step://objecttype?id=Products",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Colors",
+    "itemURL" : "step://attribute?id=ATR_ApparelColors",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2114376_L1_Product_Line",
+    "itemURL" : "step://objecttype?id=2114376_L1_Product_Line",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "restaurant_wendys",
+    "itemURL" : "step://objecttype?id=restaurant_wendys",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2168218_pLine",
+    "itemURL" : "step://objecttype?id=2168218_pLine",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "741933_Product Line",
+    "itemURL" : "step://objecttype?id=741933_Product_line",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2160152_Case_Study",
+    "itemURL" : "step://objecttype?id=2160152_case_study",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Country Root",
+    "itemURL" : "step://dimensionpoint?id=AllCountries",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PPH_GPC_Segment",
+    "itemURL" : "step://objecttype?id=PPH_GPC_Segment",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Data Sources",
+    "itemURL" : "step://objecttype?id=PMDM.PRD.DataSources",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "satya_objects",
+    "itemURL" : "step://objecttype?id=satya_objects",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Tyres",
+    "itemURL" : "step://objecttype?id=Tyres",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "B NTT Root",
+    "itemURL" : "step://objecttype?id=B_NTTRoot",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Supermarket",
+    "itemURL" : "step://objecttype?id=101",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Hotel Catalog",
+    "itemURL" : "step://objecttype?id=HotelCatalog",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2150129 Microphone",
+    "itemURL" : "step://objecttype?id=2150129_microphone",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Happy Scribbles Product Root",
+    "itemURL" : "step://objecttype?id=HSProductRoot",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Smartsheet Template Product",
+    "itemURL" : "step://referencetype?id=SmartsheetTemplateProduct",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "UAGProductRoot",
+    "itemURL" : "step://objecttype?id=UAGProductRoot",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Hiérarchie des emballages",
+    "itemURL" : "step://objecttype?id=PMDM.PRD.PackagingHierarchy",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "MOT Level 1",
+    "itemURL" : "step://objecttype?id=MOTLevel1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2153681",
+    "itemURL" : "step://objecttype?id=2153681",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "TestP",
+    "itemURL" : "step://objecttype?id=TestP",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SU 2130798 Level1",
+    "itemURL" : "step://objecttype?id=SU_2130798_Level1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "262748_Test",
+    "itemURL" : "step://objecttype?id=262748_Test",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SportsShop",
+    "itemURL" : "step://objecttype?id=05_SportsShop",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2091339_food_items0",
+    "itemURL" : "step://objecttype?id=2091339_food_items0",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Clothing_Accessories",
+    "itemURL" : "step://objecttype?id=Clothing_Accessories",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2090982_products",
+    "itemURL" : "step://objecttype?id=2090982_products",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ABC_349960",
+    "itemURL" : "step://objecttype?id=ABC_349960",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Marketings Completeness",
+    "itemURL" : "step://attribute?id=PMDM.AT.MarketingsCompleteness",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product root",
+    "itemURL" : "step://objecttype?id=U_Productroot",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Root",
+    "itemURL" : "step://objecttype?id=Product_Root",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "LK1_Amazon Products",
+    "itemURL" : "step://objecttype?id=LK1_Amazon+Products",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2114879_Ahold_Demo",
+    "itemURL" : "step://objecttype?id=2114879_Ahold_Demo",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Furniture",
+    "itemURL" : "step://objecttype?id=Furniture",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AB Ericsson Root",
+    "itemURL" : "step://objecttype?id=AB_EricssonRoot",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "553667_Product Line",
+    "itemURL" : "step://objecttype?id=553667_Product+Line",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Séquence d'affichage",
+    "itemURL" : "step://attribute?id=PMDM.AT.DisplaySequence",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "(Test001)",
+    "itemURL" : "step://objecttype?id=%28Test001%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "349960_FF_L1",
+    "itemURL" : "step://objecttype?id=349960_FF_L1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATHDW327004_2037776-Ass",
+    "itemURL" : "step://objecttype?id=ATHDW327004_2037776_Ass",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2412977 Level1",
+    "itemURL" : "step://objecttype?id=2412977_Level1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Zweck",
+    "itemURL" : "step://attribute?id=PMDM.AT.Purpose",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Cafe",
+    "itemURL" : "step://objecttype?id=Cafe",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Root 2378248",
+    "itemURL" : "step://objecttype?id=Product+Root+2378248",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "001M_Electronics",
+    "itemURL" : "step://objecttype?id=001M_Electronics",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "349960_Task",
+    "itemURL" : "step://objecttype?id=349960_Task",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Rejected Products",
+    "itemURL" : "step://objecttype?id=PMDM.PRD.RejectedProducts",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2033879_level1",
+    "itemURL" : "step://objecttype?id=2033879_level1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AB Infosys1",
+    "itemURL" : "step://objecttype?id=AB_Infosys1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Unclassified",
+    "itemURL" : "step://objecttype?id=Unclassified",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Cars",
+    "itemURL" : "step://objecttype?id=2041042",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PDX: Maximum Number Of References",
+    "itemURL" : "step://attribute?id=PMDM.AT.PDS.MaxNumberOfReferences",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Delete LK_Amazon",
+    "itemURL" : "step://objecttype?id=LK_Amazon",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "USA",
+    "itemURL" : "step://dimensionpoint?id=US",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATHDW327005_2159760_SANTHOSH",
+    "itemURL" : "step://objecttype?id=ATHDW327005_2159760_SANTHOSH",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Producr uday",
+    "itemURL" : "step://objecttype?id=B_Producruday",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "testing20",
+    "itemURL" : "step://objecttype?id=testing20",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Pantaloons",
+    "itemURL" : "step://objecttype?id=Pantaloons",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "DisplaySequence",
+    "itemURL" : "step://attribute?id=DisplaySequence",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "935766_level1",
+    "itemURL" : "step://objecttype?id=935766_level1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ScreenSize",
+    "itemURL" : "step://attribute?id=2407785_ScreenSize",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Line",
+    "itemURL" : "step://objecttype?id=Level+1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "MCP Product Root",
+    "itemURL" : "step://objecttype?id=MCPProductRoot",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ABC Product Line",
+    "itemURL" : "step://objecttype?id=ABC_Product_Line",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Academic",
+    "itemURL" : "step://objecttype?id=Academic",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Z Product dish",
+    "itemURL" : "step://objecttype?id=Z_Productdish",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Level A",
+    "itemURL" : "step://objecttype?id=Level+A",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SM_Adminstration Root",
+    "itemURL" : "step://objecttype?id=SM_Adminstration+Root",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATHDW327005_2314064_PPH",
+    "itemURL" : "step://objecttype?id=ATHDW327005_2314064_PPH",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "RC",
+    "itemURL" : "step://objecttype?id=RC",
+    "inclusion" : "Derived",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2131546_Level -1 - Product Line",
+    "itemURL" : "step://objecttype?id=2131546_Level-1-+Product+Line",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SNY_Product_Line",
+    "itemURL" : "step://objecttype?id=SNY_Product_Line",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Category",
+    "itemURL" : "step://objecttype?id=2152815_Category",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "English",
+    "itemURL" : "step://dimensionpoint?id=en-US",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Zapros Master Product Root",
+    "itemURL" : "step://objecttype?id=ZaprosMasterProductRoot",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "001A_Context",
+    "itemURL" : "step://attribute?id=001A_Context",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Business Library Type",
+    "itemURL" : "step://objecttype?id=stibo.businessrule.library",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "APP_240_root",
+    "itemURL" : "step://objecttype?id=APP_240_root",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2314064_PPH",
+    "itemURL" : "step://objecttype?id=2314064",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "1_USA",
+    "itemURL" : "step://dimensionpoint?id=1_USA",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group root",
+    "itemURL" : "step://SetupGroup?id=Setup+Group+hierarchy+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "TestParent",
+    "itemURL" : "step://objecttype?id=TestParent",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Power Bank",
+    "itemURL" : "step://objecttype?id=MobileX_PowerBank",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AProduct Root",
+    "itemURL" : "step://objecttype?id=AProduct_Root",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "634350_TEST",
+    "itemURL" : "step://objecttype?id=634350_TEST",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2138401 ABZ Office Inc Product Line",
+    "itemURL" : "step://objecttype?id=2138401_ABZOfficeIncProductLine",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Color",
+    "itemURL" : "step://attribute?id=AT_Color",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PJT-PPH-Root",
+    "itemURL" : "step://objecttype?id=PJT-PPH-Root",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Hotel",
+    "itemURL" : "step://objecttype?id=vrHotel",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "123",
+    "itemURL" : "step://objecttype?id=product+root+user+type",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2321911_Elective_subject",
+    "itemURL" : "step://objecttype?id=2321911_Elective_subject",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "(01_Arnold)",
+    "itemURL" : "step://objecttype?id=%2801_Arnold%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "M Product Root",
+    "itemURL" : "step://objecttype?id=M_Root",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2068534_brand",
+    "itemURL" : "step://attribute?id=2068534_brand",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2430981_Clothes",
+    "itemURL" : "step://objecttype?id=2430981_clothes",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product_Shirt",
+    "itemURL" : "step://objecttype?id=Product_Shirt",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SMI Menu Code",
+    "itemURL" : "step://attribute?id=SMIMenuCode",
+    "inclusion" : "Derived",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "MarriottCatalog",
+    "itemURL" : "step://objecttype?id=MarriottCatalog",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "LK_TEST",
+    "itemURL" : "step://objecttype?id=LK_TEST",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Brand Master",
+    "itemURL" : "step://objecttype?id=Brand+Master",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2153882",
+    "itemURL" : "step://objecttype?id=2153882",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "v high",
+    "itemURL" : "step://objecttype?id=v_high",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Class",
+    "itemURL" : "step://objecttype?id=Class",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ProductHierarchy-Root",
+    "itemURL" : "step://objecttype?id=ProductHierarchy-Root",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "262748_ATHDW327005_Level-1-Product Line",
+    "itemURL" : "step://objecttype?id=262748_ATHDW327005_L1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2159624",
+    "itemURL" : "step://objecttype?id=2159624",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2413920 Primary Product Hierarchy",
+    "itemURL" : "step://objecttype?id=2413920_Primary_Product_Hierarchy",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Restaurant",
+    "itemURL" : "step://objecttype?id=Restaurant",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2154050",
+    "itemURL" : "step://objecttype?id=2154050",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Primary Product hierarchy",
+    "itemURL" : "step://objecttype?id=Product+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Tv Root",
+    "itemURL" : "step://objecttype?id=Product_Tv_Root",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Mobile",
+    "itemURL" : "step://objecttype?id=Mobile",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Merck_Demo",
+    "itemURL" : "step://objecttype?id=Merck_Demo",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Ahold_Demo",
+    "itemURL" : "step://objecttype?id=Ahold_Demo",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "297417_DMart_2025",
+    "itemURL" : "step://objecttype?id=297417_DMart_2025",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Wendys Sample Project",
+    "itemURL" : "step://objecttype?id=wendys_sample_project",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "001Y_Electronics",
+    "itemURL" : "step://objecttype?id=001Y_Electronics",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Business Unit Root",
+    "itemURL" : "step://objecttype?id=BusinessUnitRoot",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "67",
+    "itemURL" : "step://objecttype?id=67",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AN_BRs_Grp",
+    "itemURL" : "step://SetupGroup?id=AN_BRs_Grp",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : true
+  }, {
+    "name" : "RS  Resort",
+    "itemURL" : "step://objecttype?id=RS+_Resort",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATHDW327005 Camera",
+    "itemURL" : "step://objecttype?id=908972_ATHDW327005_DSLR",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Wiley Com L1",
+    "itemURL" : "step://objecttype?id=WileyComL1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "cognizant_prod",
+    "itemURL" : "step://objecttype?id=cognizant_prod",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "RC Number",
+    "itemURL" : "step://attribute?id=RCNumber",
+    "inclusion" : "Derived",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Accessories",
+    "itemURL" : "step://objecttype?id=Accessories",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Quantity",
+    "itemURL" : "step://attribute?id=Attr_Quantity",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Line - 892395",
+    "itemURL" : "step://objecttype?id=ProductLine",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AR_Restaurant",
+    "itemURL" : "step://objecttype?id=AR_Restaurant",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Test Products Root",
+    "itemURL" : "step://objecttype?id=POC26.PPC.POC26Products",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "POC26 Root Level",
+    "itemURL" : "step://objecttype?id=POC26.PPC.RootLevel",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AR_Products",
+    "itemURL" : "step://objecttype?id=AR_Products",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SNY1_Product",
+    "itemURL" : "step://objecttype?id=SNY1_Product",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Segment",
+    "itemURL" : "step://objecttype?id=gpcSegment",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "GMM Locations Root",
+    "itemURL" : "step://objecttype?id=GMMLocationsRoot",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "CLothing_Satya",
+    "itemURL" : "step://objecttype?id=Clothing_Satya",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AN_SMIToRC",
+    "itemURL" : "step://referencetype?id=AN_SMIToRC",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2415121_University",
+    "itemURL" : "step://objecttype?id=2415121_University",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Completeness Score",
+    "itemURL" : "step://attribute?id=PMDM.AT.CompletenessScore",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language Root",
+    "itemURL" : "step://dimensionpoint?id=std.lang.all",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATHDW327005_2152815_AKHIL",
+    "itemURL" : "step://objecttype?id=ATHDW327005_2152815_AKHIL",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Country",
+    "itemURL" : "step://dimension?id=Country",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2046190_Beverages",
+    "itemURL" : "step://objecttype?id=2046190_Beverages",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "920_test",
+    "itemURL" : "step://objecttype?id=920_test",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "CarHiearchyRoot",
+    "itemURL" : "step://objecttype?id=CarHiearchyRoot",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "553667_Level1",
+    "itemURL" : "step://objecttype?id=553667_Level1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "University_Satya",
+    "itemURL" : "step://objecttype?id=University_Satya",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "cricket_kits",
+    "itemURL" : "step://objecttype?id=cricket_kits",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "University",
+    "itemURL" : "step://objecttype?id=University",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATHDW327005_2219181_ProductLine",
+    "itemURL" : "step://objecttype?id=ATHDW327005_2219181_ProductLine",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "1 ar Products",
+    "itemURL" : "step://objecttype?id=1_ar_Products",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "24 New Product",
+    "itemURL" : "step://objecttype?id=24_New_Product",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "T Shirts",
+    "itemURL" : "step://objecttype?id=Attribute_T-Shirt",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2158111-product_Line",
+    "itemURL" : "step://objecttype?id=2158111-product_Line",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2159211_Products",
+    "itemURL" : "step://objecttype?id=2159211_ObjL1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2159760",
+    "itemURL" : "step://objecttype?id=2159760",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2068534_level1",
+    "itemURL" : "step://objecttype?id=2068534_level1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SN1_Product_Line",
+    "itemURL" : "step://objecttype?id=SN1_Product_Line",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Agentic Demo",
+    "itemURL" : "step://objecttype?id=AgenticDemo",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "APP_240_THOC_Root",
+    "itemURL" : "step://objecttype?id=APP_240_THOC_Root",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "My Products",
+    "itemURL" : "step://objecttype?id=MyProducts",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Line",
+    "itemURL" : "step://objecttype?id=2160152_Product_Line",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AR_Cafe",
+    "itemURL" : "step://objecttype?id=AR_Cafe",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Akhil_C",
+    "itemURL" : "step://objecttype?id=Akhil_C_2152815",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2407785_Brand",
+    "itemURL" : "step://objecttype?id=2407785_Brand",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "BMI Menu Code",
+    "itemURL" : "step://attribute?id=BMIMenuCode",
+    "inclusion" : "Derived",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "price",
+    "itemURL" : "step://attribute?id=2407785_price",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Service Loc Approval Snapshots",
+    "itemURL" : "step://objecttype?id=ServiceLocApprovalSnapshots",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AR1_PRODUCT",
+    "itemURL" : "step://objecttype?id=AR1_PRODUCT",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2392951_ProductLine",
+    "itemURL" : "step://objecttype?id=2392951_ProductLine",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "001G_Product",
+    "itemURL" : "step://objecttype?id=001G_Product",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Office_Product",
+    "itemURL" : "step://objecttype?id=Office_Product",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Ahold Product",
+    "itemURL" : "step://objecttype?id=p_Product",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2160152 Product Line",
+    "itemURL" : "step://objecttype?id=2160152_Product_Line_PL",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2416138_Level1",
+    "itemURL" : "step://objecttype?id=2416138_Level1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "00A1_ProductLine",
+    "itemURL" : "step://objecttype?id=00A1_ProductLine",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2413920 Products",
+    "itemURL" : "step://objecttype?id=2413920_Products",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Primary Product Classification",
+    "itemURL" : "step://objecttype?id=test_Product+user-type+root",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AN_AttrGrp",
+    "itemURL" : "step://attributegroup?id=AN_AttrGrp",
+    "inclusion" : "Change",
+    "importing" : "Force",
+    "instruction" : "",
+    "recursive" : true
+  }, {
+    "name" : "XYZ Level 1",
+    "itemURL" : "step://objecttype?id=XYZLevel1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ElectiveSubject_Satya",
+    "itemURL" : "step://objecttype?id=ElectiveSubject_Satya",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2160152_Primary_Product_Hierarchy",
+    "itemURL" : "step://objecttype?id=2160152_primary_product_hierarchy",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "cts_Selling_region_traning",
+    "itemURL" : "step://objecttype?id=cts_Selling_region_traning",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "akhilrequired",
+    "itemURL" : "step://objecttype?id=akhilrequired",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PDX: Relevance",
+    "itemURL" : "step://attribute?id=PMDM.AT.PDS.Relevance",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Accessories Stores",
+    "itemURL" : "step://objecttype?id=AccessoriesStores",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SHU Resort",
+    "itemURL" : "step://objecttype?id=SHU_Resort",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Shukla Location Root",
+    "itemURL" : "step://objecttype?id=ShuklaLocationRoot",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AR Hierarchy",
+    "itemURL" : "step://objecttype?id=AR_Hierarchy",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "801636_Testing_ProductCreation",
+    "itemURL" : "step://objecttype?id=801636_Testing_ProductCreation",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "krishna",
+    "itemURL" : "step://objecttype?id=krishna",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Level1 2412977",
+    "itemURL" : "step://objecttype?id=Level1_2412977",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Purpose",
+    "itemURL" : "step://attribute?id=Purpose",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "349960_Evalution_Task_22_05",
+    "itemURL" : "step://objecttype?id=349960_Evalution_Task",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "level3_subcat",
+    "itemURL" : "step://objecttype?id=1003",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2107533 WB 2026",
+    "itemURL" : "step://objecttype?id=2107533_WB_2026",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "(123_349960)",
+    "itemURL" : "step://objecttype?id=%28123_349960%29",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Global Business Rules",
+    "itemURL" : "step://objecttype?id=GlobalBusinessRules",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Mobile Phones",
+    "itemURL" : "step://objecttype?id=MobilePhones",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2143503_Product_Line",
+    "itemURL" : "step://objecttype?id=2143503_Product_Line",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2129820_Level 1",
+    "itemURL" : "step://objecttype?id=2129820-Level+1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "asd1_Level1",
+    "itemURL" : "step://objecttype?id=asd1_Level1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "PPH Ecomm Root",
+    "itemURL" : "step://objecttype?id=PPH_Ecomm_Root",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Clothing",
+    "itemURL" : "step://objecttype?id=2126436_Clothing",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2138240",
+    "itemURL" : "step://objecttype?id=2138240",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "460791_test",
+    "itemURL" : "step://objecttype?id=460791",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Cements",
+    "itemURL" : "step://objecttype?id=Cements",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Training Hierarchy",
+    "itemURL" : "step://objecttype?id=TrainingHierarchy",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Completeness Score",
+    "itemURL" : "step://attribute?id=Completeness+Score",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Akhil_ParentCompany",
+    "itemURL" : "step://objecttype?id=Akhil_ParentCompany",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Mobiles_2150",
+    "itemURL" : "step://objecttype?id=Mobiles_2150",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Process Root",
+    "itemURL" : "step://objecttype?id=ProcessRoot",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Business Condition Type",
+    "itemURL" : "step://objecttype?id=stibo.businessrule.condition",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Test Root",
+    "itemURL" : "step://objecttype?id=Test-Root",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Reference-Type",
+    "itemURL" : "step://objecttype?id=Reference-Type+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "AB Infosys",
+    "itemURL" : "step://objecttype?id=AB_Infosys",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "SK_AMAZON",
+    "itemURL" : "step://objecttype?id=SK_AMAZON",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Ahold_Packging_Object",
+    "itemURL" : "step://objecttype?id=Packging_Object",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Anand PoC",
+    "itemURL" : "step://objecttype?id=Anand_PoC",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2416048_level1",
+    "itemURL" : "step://objecttype?id=2416048_level1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "400524",
+    "itemURL" : "step://objecttype?id=400524",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "1_English",
+    "itemURL" : "step://dimensionpoint?id=1_English",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Language",
+    "itemURL" : "step://dimension?id=Language",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Contact Root",
+    "itemURL" : "step://objecttype?id=Contact_Root",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Packaging Hierarchy",
+    "itemURL" : "step://objecttype?id=PackagingHierarchyRoot",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "MGM_Demo",
+    "itemURL" : "step://objecttype?id=MGM_Demo_801636",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Attribute Group",
+    "itemURL" : "step://objecttype?id=stibo.grouping+attribute",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2114879_Electronics",
+    "itemURL" : "step://objecttype?id=2114879_Electronics",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Mobiles",
+    "itemURL" : "step://objecttype?id=Mobiles",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ID",
+    "itemURL" : "step://objecttype?id=ID",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Setup Group type root",
+    "itemURL" : "step://objecttype?id=Setup+Group+user-type+root",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "we",
+    "itemURL" : "step://objecttype?id=we9",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "704987_Product_Level1",
+    "itemURL" : "step://objecttype?id=704987_Product_Level1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Product Descriptionn",
+    "itemURL" : "step://attribute?id=AT_ProductDescriptionn",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "916284_Level1",
+    "itemURL" : "step://objecttype?id=916284_Level1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATHDW327004_2128057_TestProduct",
+    "itemURL" : "step://objecttype?id=ATHDW327004_2128057_TestProduct",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Test Level1",
+    "itemURL" : "step://objecttype?id=Test_Level1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "k1",
+    "itemURL" : "step://objecttype?id=k1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Service loc root",
+    "itemURL" : "step://objecttype?id=Service_loc_root",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "001G_Product_Line",
+    "itemURL" : "step://objecttype?id=001G_Product_Line",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Apple_prod",
+    "itemURL" : "step://objecttype?id=Apple_prod",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2093249 - Level1 - Product Line",
+    "itemURL" : "step://objecttype?id=2093249_Level1_ProductLine",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Business Function Type",
+    "itemURL" : "step://objecttype?id=stibo.businessrule.function",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "B Product Root",
+    "itemURL" : "step://objecttype?id=B_Root",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Global Business Rules",
+    "itemURL" : "step://SetupGroup?id=GlobalBusinessRulesRoot",
+    "inclusion" : "Precondition",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "ATHDW327004_2121529_TestProduct",
+    "itemURL" : "step://objecttype?id=ATHDW327004_2121529_TestProduct",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "Brand Level1",
+    "itemURL" : "step://objecttype?id=BrandLevel1",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "charger",
+    "itemURL" : "step://objecttype?id=charger",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "School",
+    "itemURL" : "step://objecttype?id=School",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  }, {
+    "name" : "2322893",
+    "itemURL" : "step://objecttype?id=2322893",
+    "inclusion" : "Impacted",
+    "importing" : "Ignore",
+    "instruction" : "",
+    "recursive" : false
+  } ],
+  "signedGlobalXml" : "<STEP-ProductInformation ContextID=\"Context1\"  WorkspaceID=\"Main\"  ExportTime=\"2026-11-13 19:34:37\"    >\n\n  <Qualifiers>\n    <Qualifier ID=\"AND 6665519\">\n      <DimensionPointLink DimensionPointID=\"US\"/>\n      <DimensionPointLink DimensionPointID=\"en-US\"/>\n    </Qualifier>\n    <Qualifier ID=\"en-US\">\n      <DimensionPointLink DimensionPointID=\"en-US\"/>\n    </Qualifier>\n  </Qualifiers>\n\n  <UserTypes>\n    <UserType ID=\"AN_Level3\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Relaxed\">\n      <Name QualifierID=\"AND 6665519\">AN_Level3</Name>\n      <UserTypeLink UserTypeID=\"AN_Level2\"/>\n    </UserType>\n    <UserType ID=\"AN_Root\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Relaxed\">\n      <Name QualifierID=\"AND 6665519\">AN_Root</Name>\n      <UserTypeLink UserTypeID=\"Product user-type root\"/>\n    </UserType>\n    <UserType ID=\"AN_Level1\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Relaxed\">\n      <Name QualifierID=\"AND 6665519\">AN_Level1</Name>\n      <UserTypeLink UserTypeID=\"AN_Root\"/>\n    </UserType>\n    <UserType ID=\"RC_Root\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Relaxed\">\n      <Name QualifierID=\"AND 6665519\">RC Root</Name>\n      <UserTypeLink UserTypeID=\"AN_Root\"/>\n    </UserType>\n    <UserType ID=\"RC\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Relaxed\">\n      <Name QualifierID=\"AND 6665519\">RC</Name>\n      <UserTypeLink UserTypeID=\"RC_Root\"/>\n    </UserType>\n    <UserType ID=\"AN_Level2\" ManuallySorted=\"false\" AllowInDesignTemplate=\"false\" AllowQuarkTemplate=\"false\" IsCategory=\"false\" ReferenceTargetLockPolicy=\"Relaxed\">\n      <Name QualifierID=\"AND 6665519\">AN_Level2</Name>\n      <UserTypeLink UserTypeID=\"AN_Level1\"/>\n    </UserType>\n  </UserTypes>\n\n  <CrossReferenceTypes>\n    <ProductCrossReferenceType ID=\"AN_SMIToRC\" Inherited=\"false\" Accumulated=\"false\" Revised=\"true\" Mandatory=\"false\" MultiValued=\"true\">\n      <Name QualifierID=\"en-US\">AN_SMIToRC</Name>\n      <UserTypeLink UserTypeID=\"AN_Level1\"/>\n      <TargetUserTypeLink UserTypeID=\"RC\"/>\n    </ProductCrossReferenceType>\n  </CrossReferenceTypes>\n\n  <AttributeGroupList>\n\n  <AttributeGroup ID=\"AN_AttrGrp\" ShowInWorkbench=\"true\" ManuallySorted=\"false\" ParentID=\"Attribute group root\">\n    <Name QualifierID=\"en-US\">AN_AttrGrp</Name>\n  </AttributeGroup>\n  </AttributeGroupList>\n\n  <AttributeList>\n\n    <Attribute ID=\"SMIMenuCode\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">SMI Menu Code</Name>\n      <Validation BaseType=\"number\" MinValue=\"\" MaxValue=\"\" MaxLength=\"\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"AN_AttrGrp\"/>\n      <UserTypeLink UserTypeID=\"AN_Level1\"/>\n    </Attribute>\n\n    <Attribute ID=\"RCNumber\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">RC Number</Name>\n      <Validation BaseType=\"number\" MinValue=\"\" MaxValue=\"\" MaxLength=\"\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"AN_AttrGrp\"/>\n      <UserTypeLink UserTypeID=\"RC\"/>\n    </Attribute>\n\n    <Attribute ID=\"BMIMenuCode\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">BMI Menu Code</Name>\n      <Validation BaseType=\"number\" MinValue=\"\" MaxValue=\"\" MaxLength=\"\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"AN_AttrGrp\"/>\n      <UserTypeLink UserTypeID=\"AN_Level2\"/>\n    </Attribute>\n\n    <Attribute ID=\"BMIRMenuCode\" MultiValued=\"false\" ProductMode=\"Property\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">BMIR Menu Code</Name>\n      <Validation BaseType=\"number\" MinValue=\"\" MaxValue=\"\" MaxLength=\"\" InputMask=\"\"/>\n      <AttributeGroupLink AttributeGroupID=\"AN_AttrGrp\"/>\n      <UserTypeLink UserTypeID=\"AN_Level3\"/>\n    </Attribute>\n\n    <Attribute ID=\"Market\" MultiValued=\"false\" ProductMode=\"Normal\" FullTextIndexed=\"false\" ExternallyMaintained=\"false\" Derived=\"false\" Mandatory=\"false\">\n      <Name QualifierID=\"en-US\">Market</Name>\n      <Validation BaseType=\"text\" MinValue=\"\" MaxValue=\"\" MaxLength=\"100\" InputMask=\"\"/>\n      <DimensionLink DimensionID=\"Country\"/>\n      <AttributeGroupLink AttributeGroupID=\"AN_AttrGrp\"/>\n      <UserTypeLink UserTypeID=\"RC\"/>\n      <UserTypeLink UserTypeID=\"AN_Level1\"/>\n    </Attribute>\n\n  </AttributeList>\n\n  <SetupGroups>\n    <SetupGroup ID=\"AN_BRs_Grp\" UserTypeID=\"BusinessRuleGroup\" ParentID=\"GlobalBusinessRulesRoot\">\n      <Name QualifierID=\"Qualifier root\">AN_BRs_Grp</Name>\n    </SetupGroup>\n  </SetupGroups>\n\n  <BusinessRules>\n    <BusinessRule ID=\"BA_createReference\" Scope=\"Global\" Type=\"Action\" RunPrivileged=\"false\">\n\n<!-- Definition:\nAction #1 (JavaScriptBusinessActionWithBinds):\n<config>\n  <bindings>\n    <binding alias=\"node\" type=\"Node\" contract=\"CurrentObjectBindContract\"/>\n  </bindings>\n  <messages/>\n  <javaScript>\nnode.approve()\n  </javaScript>\n</config> -->\n      <SetupGroupLink SetupGroupID=\"AN_BRs_Grp\"/>\n      <Name QualifierID=\"Qualifier root\">BA_createReference</Name>\n      <OnApprove ApproveSetup=\"Never\"/>\n      <Configuration>H4sIAAAAAAAA/4VSTU/DMAy971dEQargQLvdkPqlrYAE0sTEhjhWoc1KpiwJiVvBvydduq4FDW7Os/P8nm3F64qJnCjFGTU52+aFFFtWRcYCkCiXdlgcpZ97jhqqDZMixjN/ihEVhSyZqGL8srm/vsFpMokWtWGCGvNcc5pMEOqB1YEODfMOeriN8SNpyLrQTMExPy/ANnpl8L5gojS45bJsK6LJnoKV4YAhhFomV402X4rGeGdpfU5E5a9BW6E48TiEIyfeRy0htHZccPLk3gdjLky9CkLvYjYNW5K2z5KoHkPoiCI7MdCkACvH/cxqramAp7cdLaAtybqKruecM2K6WiFL2sG9sYwT0+drzl0UjPQEPwVFQf//zKjutJZ6aWdNKvrHyP4nOm3vPEvry7enpmVDL69+cQ6Aw2ajYHw39rKC8Wl1V/oN03WT1sUCAAA=</Configuration>\n      <ValidObjectTypes AllObjectTypesValid=\"false\"/>\n    </BusinessRule>\n  </BusinessRules>\n</STEP-ProductInformation>\n",
+  "signatory" : "AGRAJU",
+  "comment" : "McDv1"
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main">
+    <Qualifiers>
+        <Qualifier ID="en-US">
+            <DimensionPointLink DimensionPointID="en-US"></DimensionPointLink>
+        </Qualifier>
+    </Qualifiers>
+    <CrossReferenceTypes>
+        <ProductCrossReferenceType ID="AN_SMIToRC" Inherited="false" Accumulated="false" Revised="true" Mandatory="false" MultiValued="true">
+            <Name QualifierID="en-US">AN_SMIToRC</Name>
+            <UserTypeLink UserTypeID="AN_Level1"></UserTypeLink>
+            <TargetUserTypeLink UserTypeID="RC"></TargetUserTypeLink>
+        </ProductCrossReferenceType>
+    </CrossReferenceTypes>
+</STEP-ProductInformation>
